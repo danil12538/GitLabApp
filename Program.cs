@@ -11,9 +11,10 @@ namespace GitLabApp
         static void Main(string[] args)
         {
             double x, y;
+            Console.Write("Введите x = ");
             x = Convert.ToDouble(Console.ReadLine());
             y = 4 * Math.Sin(x) * 5 * Math.Cos(x);
-            Console.WriteLine("{0:0.00}", y);
+            Console.WriteLine("y = {0:0.00}", y);
             Console.ReadKey();
         }
     }
